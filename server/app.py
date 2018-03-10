@@ -2914,7 +2914,7 @@ class RootHandler(BaseHandler):
                 acl = db.getAcl(rootUUID, self.userid)
 
         except IOError as e:
-            self.log.info("IOError: " + str(e.errno) + " " + e.strerror)
+            self.log.info("IOError: " + str(e.errno) + " " )
             status = errNoToHttpStatus(e.errno)
             raise HTTPError(status, reason=e.strerror)
 

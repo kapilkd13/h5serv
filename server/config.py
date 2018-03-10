@@ -17,7 +17,7 @@ cfg = {
     'debug':  True,
     'datapath': '../data/',
     'public_dir': ['public', 'test'],
-    'domain':  'hdfgroup.org',
+    'domain':  'icmplus.neurosurg.cam.ac.uk',
     'hdf5_ext': '.h5',
     'toc_name': '.toc.h5',
     'home_dir': 'home',
